@@ -5,20 +5,19 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version: 2.4.2
 
-* System dependencies
+* System dependencies: rails 5.1.4, postgresql
 
-* Configuration
+* Configuration: bundle install
 
-* Database creation
+* Database creation: rake db:create
 
-* Database initialization
+* Database initialization: rake db:migrate
 
-* How to run the test suite
+* How to run the test suite: rails s followed by opening localhost:3000
+Then it will ask for credentials, you can create your own account from the signup option. Then from the list of tables you can choose the table named event and hoose the import option.
 
-* Services (job queues, cache servers, search engines, etc.)
+Plus in the devise.rb you can set your email and password for the mailer to work, in case you wanna test the functionality of forget password.
 
-* Deployment instructions
-
-* ...
+* Deployment instructions: I have deployed the app in the heroku, here is the url https://upload-test-csv.herokuapp.com

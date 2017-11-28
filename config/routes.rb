@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :names
+  resources :events
   devise_for :admins
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root to: redirect('/admin')
