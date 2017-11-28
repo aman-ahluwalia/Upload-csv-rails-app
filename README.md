@@ -16,7 +16,7 @@ Things you may want to cover:
 * Database initialization: rake db:migrate
 
 * How to run the test suite: rails s followed by opening localhost:3000
-Then it will ask for credentials, you can create your own account from the signup option. Then from the list of tables you can choose the table named event and hoose the import option.
+Then it will ask for credentials, you can create your own account from the signup option. Then left hand pane you can choose the table named event and choose the import option.
 
 Plus in the devise.rb you can set your email and password for the mailer to work, in case you wanna test the functionality of forget password.
 
