@@ -47,5 +47,8 @@ RailsAdmin.config do |config|
       warden.authenticate! scope: :admin
     end
     config.current_user_method(&:current_admin)
+    config.model 'Admin' do
+      visible false
+    end
   end
 end
